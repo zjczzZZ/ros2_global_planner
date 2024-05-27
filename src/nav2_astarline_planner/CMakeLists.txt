@@ -49,6 +49,7 @@ set(dependencies
 )
 
 add_library(${library_name} SHARED
+  src/Astar.cpp
   src/astar_line_planner.cpp
 )
 
